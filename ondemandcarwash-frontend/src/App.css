@@ -1,0 +1,25 @@
+.just-for-flex a{
+  color: #212529;
+  font-weight: 500;
+}
+
+.just-for-flex a:link {
+  color: #212529;
+}
+
+/* visited link */
+.just-for-flex a:visited {
+  color: #212529;
+}
+
+/* mouse over link */
+.just-for-flex a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+/* selected link */
+.just-for-flex a:active {
+  color: #212529;
+}
+
