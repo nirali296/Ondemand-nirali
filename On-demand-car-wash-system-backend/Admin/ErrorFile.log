@@ -1,0 +1,156 @@
+2022-08-18 19:07:35,362 [INFO] admin.AdminApplication [restartedMain] Starting AdminApplication using Java 17.0.1 on LAPTOP-C70VGHLR with PID 12680 (C:\Users\niral\Downloads\OnDemanCarWash-nirali-master (2)\OnDemanCarWash-nirali-master\On-demand-car-wash-system-backend\Admin\target\classes started by niral in C:\Users\niral\Downloads\OnDemanCarWash-nirali-master (2)\OnDemanCarWash-nirali-master\On-demand-car-wash-system-backend\Admin)
+2022-08-18 19:07:35,369 [INFO] admin.AdminApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-08-18 19:07:35,416 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-18 19:07:35,416 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-18 19:07:36,494 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-08-18 19:07:36,624 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 126 ms. Found 3 MongoDB repository interfaces.
+2022-08-18 19:07:36,863 [INFO] org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=efa42eea-7871-3e46-9361-1a45d80d59e7
+2022-08-18 19:07:36,938 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-18 19:07:36,939 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-18 19:07:36,941 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-18 19:07:37,334 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2022-08-18 19:07:37,347 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-08-18 19:07:37,347 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2022-08-18 19:07:37,446 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-08-18 19:07:37,446 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2029 ms
+2022-08-18 19:07:37,682 [INFO] org.mongodb.driver.cluster [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-08-18 19:07:37,775 [WARN] org.springframework.data.convert.CustomConversions [restartedMain] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-08-18 19:07:37,795 [INFO] org.mongodb.driver.connection [cluster-ClusterId{value='62fe40a15b505f231f86702a', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:73}] to localhost:27017
+2022-08-18 19:07:37,795 [INFO] org.mongodb.driver.connection [cluster-rtt-ClusterId{value='62fe40a15b505f231f86702a', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:74}] to localhost:27017
+2022-08-18 19:07:37,795 [INFO] org.mongodb.driver.cluster [cluster-ClusterId{value='62fe40a15b505f231f86702a', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=43531000}
+2022-08-18 19:07:37,840 [WARN] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-08-18 19:07:37,881 [WARN] org.springframework.data.convert.CustomConversions [restartedMain] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-08-18 19:07:38,565 [INFO] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-08-18 19:07:38,618 [INFO] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-08-18 19:07:38,684 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-18 19:07:38,769 [WARN] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [restartedMain] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-08-18 19:07:39,021 [INFO] org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses RestTemplate.
+2022-08-18 19:07:39,067 [WARN] org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-08-18 19:07:39,126 [INFO] org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-08-18 19:07:39,167 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-08-18 19:07:39,172 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2022-08-18 19:07:39,206 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2022-08-18 19:07:39,207 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2022-08-18 19:07:39,207 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2022-08-18 19:07:39,207 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2022-08-18 19:07:39,207 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2022-08-18 19:07:39,207 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2022-08-18 19:07:39,207 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2022-08-18 19:07:39,529 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2022-08-18 19:07:39,534 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2022-08-18 19:07:39,538 [INFO] com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-08-18 19:07:39,550 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1660829859549 with initial instances count: 2
+2022-08-18 19:07:39,551 [INFO] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application ADMIN-SERVICE with eureka with status UP
+2022-08-18 19:07:39,551 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1660829859551, current=UP, previous=STARTING]
+2022-08-18 19:07:39,553 [INFO] com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_ADMIN-SERVICE/LAPTOP-C70VGHLR:admin-service:8081: registering service...
+2022-08-18 19:07:39,598 [INFO] com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_ADMIN-SERVICE/LAPTOP-C70VGHLR:admin-service:8081 - registration status: 204
+2022-08-18 19:07:39,608 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2022-08-18 19:07:39,609 [INFO] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8081
+2022-08-18 19:07:39,808 [INFO] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2022-08-18 19:07:39,820 [INFO] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2022-08-18 19:07:39,847 [INFO] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2022-08-18 19:07:39,967 [INFO] admin.AdminApplication [restartedMain] Started AdminApplication in 5.121 seconds (JVM running for 6.016)
+2022-08-18 19:07:41,613 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-18 19:07:41,613 [INFO] org.springframework.web.servlet.DispatcherServlet [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-08-18 19:07:41,615 [INFO] org.springframework.web.servlet.DispatcherServlet [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 1 ms
+2022-08-18 19:08:57,216 [INFO] org.mongodb.driver.connection [http-nio-8081-exec-4] Opened connection [connectionId{localValue:3, serverValue:75}] to localhost:27017
+2022-08-18 19:12:39,221 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-08-18 19:17:39,236 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-08-18 19:22:39,248 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-08-18 19:27:39,254 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-08-18 19:32:39,261 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-08-18 19:37:39,272 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-08-18 19:42:39,288 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-08-18 19:47:39,295 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-08-18 19:52:39,300 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-08-18 19:57:39,307 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-08-18 20:02:39,322 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-08-18 20:07:39,335 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-08-18 20:12:39,338 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-08-18 20:17:39,353 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-08-18 20:22:39,359 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-08-18 20:27:39,370 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-08-18 20:32:39,378 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-08-18 20:33:34,902 [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(97)-127.0.0.1] Application shutdown requested.
+2022-08-18 20:33:35,187 [INFO] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [RMI TCP Connection(97)-127.0.0.1] Unregistering application ADMIN-SERVICE with eureka with status DOWN
+2022-08-18 20:33:35,189 [INFO] com.netflix.discovery.DiscoveryClient [RMI TCP Connection(97)-127.0.0.1] Saw local status change event StatusChangeEvent [timestamp=1660835015189, current=DOWN, previous=UP]
+2022-08-18 20:33:35,191 [INFO] com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_ADMIN-SERVICE/LAPTOP-C70VGHLR:admin-service:8081: registering service...
+2022-08-18 20:33:35,243 [INFO] com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_ADMIN-SERVICE/LAPTOP-C70VGHLR:admin-service:8081 - registration status: 204
+2022-08-18 20:33:36,251 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [RMI TCP Connection(97)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-18 20:33:36,365 [INFO] org.mongodb.driver.connection [RMI TCP Connection(97)-127.0.0.1] Closed connection [connectionId{localValue:3, serverValue:75}] to localhost:27017 because the pool has been closed.
+2022-08-18 20:33:36,415 [INFO] com.netflix.discovery.DiscoveryClient [RMI TCP Connection(97)-127.0.0.1] Shutting down DiscoveryClient ...
+2022-08-18 20:33:39,431 [INFO] com.netflix.discovery.DiscoveryClient [RMI TCP Connection(97)-127.0.0.1] Unregistering ...
+2022-08-18 20:33:39,435 [INFO] com.netflix.discovery.DiscoveryClient [RMI TCP Connection(97)-127.0.0.1] DiscoveryClient_ADMIN-SERVICE/LAPTOP-C70VGHLR:admin-service:8081 - deregister  status: 200
+2022-08-18 20:33:39,489 [INFO] com.netflix.discovery.DiscoveryClient [RMI TCP Connection(97)-127.0.0.1] Completed shut down of DiscoveryClient
+2022-08-18 22:20:43,954 [INFO] admin.AdminApplication [restartedMain] Starting AdminApplication using Java 17.0.1 on LAPTOP-C70VGHLR with PID 28532 (C:\Users\niral\Downloads\OnDemanCarWash-nirali-master (2)\OnDemanCarWash-nirali-master\On-demand-car-wash-system-backend\Admin\target\classes started by niral in C:\Users\niral\Downloads\OnDemanCarWash-nirali-master (2)\OnDemanCarWash-nirali-master\On-demand-car-wash-system-backend\Admin)
+2022-08-18 22:20:44,036 [INFO] admin.AdminApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-08-18 22:20:44,081 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-18 22:20:44,082 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-18 22:20:45,731 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-08-18 22:20:45,867 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 132 ms. Found 3 MongoDB repository interfaces.
+2022-08-18 22:20:46,153 [INFO] org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=efa42eea-7871-3e46-9361-1a45d80d59e7
+2022-08-18 22:20:46,221 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-18 22:20:46,222 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-18 22:20:46,224 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-18 22:20:46,641 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2022-08-18 22:20:46,653 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-08-18 22:20:46,654 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.44]
+2022-08-18 22:20:46,761 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-08-18 22:20:46,762 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2680 ms
+2022-08-18 22:20:47,050 [INFO] org.mongodb.driver.cluster [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-08-18 22:20:47,143 [WARN] org.springframework.data.convert.CustomConversions [restartedMain] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-08-18 22:20:47,144 [INFO] org.mongodb.driver.connection [cluster-ClusterId{value='62fe6de761f1a66bd1593571', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:123}] to localhost:27017
+2022-08-18 22:20:47,144 [INFO] org.mongodb.driver.cluster [cluster-ClusterId{value='62fe6de761f1a66bd1593571', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=55487100}
+2022-08-18 22:20:47,144 [INFO] org.mongodb.driver.connection [cluster-rtt-ClusterId{value='62fe6de761f1a66bd1593571', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:122}] to localhost:27017
+2022-08-18 22:20:47,209 [WARN] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-08-18 22:20:47,260 [WARN] org.springframework.data.convert.CustomConversions [restartedMain] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-08-18 22:20:47,957 [INFO] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-08-18 22:20:48,007 [INFO] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-08-18 22:20:48,080 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-18 22:20:48,178 [WARN] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [restartedMain] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-08-18 22:20:48,598 [INFO] org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses RestTemplate.
+2022-08-18 22:20:48,647 [WARN] org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-08-18 22:20:48,714 [INFO] org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-08-18 22:20:48,754 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-08-18 22:20:48,759 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2022-08-18 22:20:48,792 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2022-08-18 22:20:48,792 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2022-08-18 22:20:48,792 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2022-08-18 22:20:48,792 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2022-08-18 22:20:48,792 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2022-08-18 22:20:48,793 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2022-08-18 22:20:48,793 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2022-08-18 22:20:49,080 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2022-08-18 22:20:49,085 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2022-08-18 22:20:49,091 [INFO] com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-08-18 22:20:49,102 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1660841449101 with initial instances count: 1
+2022-08-18 22:20:49,103 [INFO] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application ADMIN-SERVICE with eureka with status UP
+2022-08-18 22:20:49,103 [INFO] com.netflix.discovery.DiscoveryClient [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1660841449103, current=UP, previous=STARTING]
+2022-08-18 22:20:49,105 [INFO] com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_ADMIN-SERVICE/LAPTOP-C70VGHLR:admin-service:8081: registering service...
+2022-08-18 22:20:49,137 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2022-08-18 22:20:49,139 [INFO] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8081
+2022-08-18 22:20:49,143 [INFO] com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_ADMIN-SERVICE/LAPTOP-C70VGHLR:admin-service:8081 - registration status: 204
+2022-08-18 22:20:49,347 [INFO] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2022-08-18 22:20:49,359 [INFO] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2022-08-18 22:20:49,384 [INFO] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2022-08-18 22:20:49,515 [INFO] admin.AdminApplication [restartedMain] Started AdminApplication in 6.092 seconds (JVM running for 7.345)
+2022-08-18 22:20:50,925 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-18 22:20:50,925 [INFO] org.springframework.web.servlet.DispatcherServlet [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-08-18 22:20:50,927 [INFO] org.springframework.web.servlet.DispatcherServlet [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 2 ms
+2022-08-18 22:22:35,020 [INFO] org.mongodb.driver.connection [http-nio-8081-exec-1] Opened connection [connectionId{localValue:3, serverValue:130}] to localhost:27017
+2022-08-18 22:25:48,800 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-08-18 22:30:48,814 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-08-18 22:35:48,818 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-08-18 22:40:48,827 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-08-18 22:45:48,837 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-08-18 22:45:51,652 [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(33)-127.0.0.1] Application shutdown requested.
+2022-08-18 22:45:51,694 [INFO] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [RMI TCP Connection(33)-127.0.0.1] Unregistering application ADMIN-SERVICE with eureka with status DOWN
+2022-08-18 22:45:51,696 [INFO] com.netflix.discovery.DiscoveryClient [RMI TCP Connection(33)-127.0.0.1] Saw local status change event StatusChangeEvent [timestamp=1660842951695, current=DOWN, previous=UP]
+2022-08-18 22:45:51,697 [INFO] com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_ADMIN-SERVICE/LAPTOP-C70VGHLR:admin-service:8081: registering service...
+2022-08-18 22:45:51,717 [INFO] com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_ADMIN-SERVICE/LAPTOP-C70VGHLR:admin-service:8081 - registration status: 204
+2022-08-18 22:45:52,145 [INFO] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [RMI TCP Connection(33)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-18 22:45:52,184 [INFO] org.mongodb.driver.connection [RMI TCP Connection(33)-127.0.0.1] Closed connection [connectionId{localValue:3, serverValue:130}] to localhost:27017 because the pool has been closed.
+2022-08-18 22:45:52,201 [INFO] com.netflix.discovery.DiscoveryClient [RMI TCP Connection(33)-127.0.0.1] Shutting down DiscoveryClient ...
+2022-08-18 22:45:55,246 [INFO] com.netflix.discovery.DiscoveryClient [RMI TCP Connection(33)-127.0.0.1] Unregistering ...
+2022-08-18 22:45:55,258 [INFO] com.netflix.discovery.DiscoveryClient [RMI TCP Connection(33)-127.0.0.1] DiscoveryClient_ADMIN-SERVICE/LAPTOP-C70VGHLR:admin-service:8081 - deregister  status: 200
+2022-08-18 22:45:55,469 [INFO] com.netflix.discovery.DiscoveryClient [RMI TCP Connection(33)-127.0.0.1] Completed shut down of DiscoveryClient
