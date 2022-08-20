@@ -2,7 +2,8 @@ package com.customer.controller;
 
 import java.util.Arrays;
 import java.util.List;
-
+import org.slf4j.Logger;
+import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
@@ -27,6 +28,7 @@ import com.customer.model.Washpacks;
 import com.customer.service.CustomerServiceImplementation;
 import com.customer.service.LoginService;
 
+
 import io.swagger.annotations.ApiOperation;
 
 import java.util.Collections;
@@ -49,6 +51,7 @@ import java.util.Map;
 @RequestMapping("/user")
 public class Customercontroller {
 
+	Logger logger= org.slf4j.LoggerFactory.getLogger(Customercontroller.class);
 	@Autowired
 	private LoginService user;
 	@Autowired

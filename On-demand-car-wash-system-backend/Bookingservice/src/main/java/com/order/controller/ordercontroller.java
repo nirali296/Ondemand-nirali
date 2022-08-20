@@ -2,6 +2,7 @@ package com.order.controller;
 
 import java.util.List;
 
+import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -21,12 +22,13 @@ import com.order.model.Bookingdetails;
 import com.order.repository.Bookingrepo;
 import com.order.repository.service.Bookingservice;
 
+
 import io.swagger.annotations.ApiOperation;
 @CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/order")
 public class ordercontroller {
-
+	Logger logger= org.slf4j.LoggerFactory.getLogger(ordercontroller.class);
 	@Autowired
 	private Bookingservice BS;
 

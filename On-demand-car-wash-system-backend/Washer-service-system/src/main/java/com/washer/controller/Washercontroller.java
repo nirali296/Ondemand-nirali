@@ -3,6 +3,7 @@ package com.washer.controller;
 import java.util.Arrays;
 import java.util.List;
 
+import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -14,10 +15,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
+
 import com.washer.model.Bookingdetails;
 import com.washer.model.CustomerRating;
 import com.washer.model.Washers;
 import com.washer.service.WashService;
+
 
 import io.swagger.annotations.ApiOperation;
 @CrossOrigin(origins = "http://localhost:3000")
@@ -25,6 +28,7 @@ import io.swagger.annotations.ApiOperation;
 @RequestMapping("/wash")
 public class Washercontroller {
 
+	Logger logger= org.slf4j.LoggerFactory.getLogger(Washercontroller.class);
 	@Autowired
 	private WashService service;
 	
